@@ -70,7 +70,7 @@
     <model name='coke_can'>
       <link name='link'>
         <inertial>
-          <pose>0.0 0.35 0.40 0 -0 0</pose>
+          <pose>-0.01 -0.012 0.15 0 -0 0</pose>
           <mass>0.39000000000000001</mass>
           <inertia>
             <ixx>0.00058</ixx>
@@ -116,13 +116,13 @@
         <pose>0 0 0 0 -0 0</pose>
         <enable_wind>false</enable_wind>
       </link>
-      <pose>0 0 0.3 0 -0 0</pose>
+      <pose>0 0.45 0.3 0 -0 0</pose>
       <static>false</static>
       <self_collide>false</self_collide>
     </model>
-    <model name='CoffeeTable'>
+    <!--model name='CoffeeTable'>
       <link name='body'>
-        <pose>0 0.25 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <visual name='visual'>
           <geometry>
             <mesh>
@@ -156,7 +156,7 @@
       <pose>0 0 0 0 -0 0</pose>
       <static>false</static>
       <self_collide>false</self_collide>
-    </model>
+    </model-->
     <light name='sun' type='directional'>
       <pose>0 0 10 0 -0 0</pose>
       <cast_shadows>true</cast_shadows>

@@ -34,7 +34,7 @@ def main():
     moveit2_callback_ur = MoveIt2(node=node,
                       joint_names=['ur5_shoulder_pan_joint','ur5_shoulder_lift_joint',
                                    'ur5_elbow_joint','ur5_wrist_1_joint',
-                                   'ur5_wrist_2_joint', 'ur5_wrist_3_joint','finger_joint'],
+                                   'ur5_wrist_2_joint', 'ur5_wrist_3_joint','finger_joint'],#'left_inner_finger_joint', 'right_outer_knuckle_joint', 'right_inner_finger_joint'],
                       base_link_name='ur5_base_link',
                       end_effector_name='Gripper',
                       group_name='Arm',
